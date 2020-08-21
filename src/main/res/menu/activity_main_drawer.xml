@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:title="LOCATION">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_oncampus"
+            android:icon="@drawable/oncampus"
+            android:title="On Campus" />
+        <item
+            android:id="@+id/nav_offcampus"
+            android:icon="@drawable/offcampus"
+            android:title="Off Campus" />
+        <item
+            android:id="@+id/nav_walkin"
+            android:icon="@drawable/walkin"
+            android:title="Walk-In" />
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/blog1"
+            android:title="Blog" />
+        <item
+            android:id="@+id/nav_new1"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="New1"
+            />
+        <item
+            android:id="@+id/new2"
+            android:title="New2"
+            android:icon="@drawable/ic_menu_gallery"/>
+        </item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Subscribe" />
+            <item
+                android:id="@+id/nav_fb"
+                android:icon="@drawable/fb"
+                android:title="Facebook"/>
+            <item
+                android:id="@+id/nav_gplus"
+                android:icon="@drawable/googleplus"
+                android:title="Google+"/>
+            <item
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/twitter"
+                android:title="Twitter"/>
+        </menu>
+    </item>
+
+</menu>
